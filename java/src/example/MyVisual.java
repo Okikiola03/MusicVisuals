@@ -23,7 +23,7 @@ public class MyVisual extends Visual
         startMinim();
                 
         // Call loadAudio to load an audio file to process 
-        //loadAudio("heroplanet.mp3");   
+        //loadAudio("/Users/habeebalao/Documents/CompSci/Object Oriented Programming/OOP_GIt/MusicVisuals/java/data/TheDifference.mp3");   
 
         
         // Call this instead to read audio from the microphone
@@ -33,25 +33,15 @@ public class MyVisual extends Visual
         abv = new AudioBandsVisual(this);
     }
 
-    public void keyPressed()
-    {
-        if (key == ' ')
-        {
-            getAudioPlayer().cue(0);
-            getAudioPlayer().play();
-        }
-    }
+    
 
     public void draw()
     {
         background(0);
-        try
-        {
-            // Call this if you want to use FFT data
+        try {   // Call this if you want to use FFT data
             calculateFFT(); 
         }
-        catch(VisualException e)
-        {
+        catch(VisualException e) {
             e.printStackTrace();
         }
         // Call this is you want to use frequency bands

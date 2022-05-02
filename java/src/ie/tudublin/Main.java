@@ -1,26 +1,20 @@
 package ie.tudublin;
-
-import C20357171.WaveForm;
-import C20357171.WaveForm7;
-import C20357171.OkikiolaVisual;
-import C20357171.Okikiola1;
-import C20357171.RotatingAudioBands;
-import C20357171.dunno;
+import c20362766.HabeebsVisuals;
+import c20362766.WaveForm7;
 import processing.core.PApplet;
+//import C20357171.*; 
 
-//main
-public class Main
-{	
+public class Main {
 
-	public void startUI()
-	{
-		String[] a = {"MAIN"};
-		processing.core.PApplet.runSketch( a, new Okikiola1());		
+	public void startUI() {
+		String[] a = { "MAIN" };		
+		processing.core.PApplet.runSketch(a, new HabeebsVisuals());
+		//processing.core.PApplet.runSketch( a, new Okikiola1());		
+
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		Main main = new Main();
-		main.startUI();			
+		main.startUI();
 	}
-}
+} // end main()

@@ -17,7 +17,7 @@ public class CubeVisual extends Visual
     {
         if (key == ' ')
         {
-            getAudioPlayer().cue(0);
+            //getAudioPlayer().cue(0);
             getAudioPlayer().play();
             
         }
@@ -36,9 +36,9 @@ public class CubeVisual extends Visual
         setFrameSize(256);
 
         startMinim();
-        loadAudio("heroplanet.mp3");
+        //loadAudio("MusicVisuals/java/data/TheDifference.mp3");
         //getAp().play();
-        //startListening(); 
+        startListening(); 
         
     }
 
