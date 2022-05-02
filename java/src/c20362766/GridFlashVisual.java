@@ -19,6 +19,7 @@ public class GridFlashVisual extends Visual {
 
     int gridSize = 40;
 
+    
     for (int x = gridSize; x <= this.mv.width - gridSize; x += gridSize) {
       for (int y = gridSize; y <= this.mv.height - gridSize; y += gridSize) {
         mv.noStroke();
