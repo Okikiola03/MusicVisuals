@@ -1,8 +1,9 @@
 # Music Visualiser Project
 
-Name: Habeeb Alao
+Names: Habeeb Alao & Okikiola Braimoh
 
-Student Number: C20362766
+
+Student Number: C20362766 & C20357171
 
 ## Instructions
 - Fork this repository and use it a starter project for your assignment
@@ -20,7 +21,7 @@ This project uses methods from the proscessing library. Using lines, Rectangles 
 # Instructions
 Upon running launching the java project you will be met by a disignated visual from there you will be able to select a visual within the range of 6 that are available.
 
-| Input |  Visual Rendered |
+| Input |  Visual Rendered |		
 |-----------|-----------|
 |1 | EyesVisual |
 |2 | AmplitudeVisual |
